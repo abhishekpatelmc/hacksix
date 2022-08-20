@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.partition-1 {
+  background-color: #00bfa5;
+  flex: 0.3;
+  align-items: center;
+  justify-content: center;
+}
+
+.partition-2 {
+  background-color: whitesmoke;
+  flex: 0.70;
+}
+
+.roadmap-container {
+  
+}

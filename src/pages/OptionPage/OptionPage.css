@@ -1,0 +1,28 @@
+.title {
+  border: 3;
+  border-style: solid;
+  margin-top: 5%;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 87px;
+  text-align: center;
+  color: RGB(0, 191, 166);
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+}
+
+.title button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  cursor: pointer;
+  color: #fff;
+  background-color: RGB(0, 191, 166);
+  margin-top: 3%;
+  margin-right: 7%;
+  margin-left: 7%;
+}
