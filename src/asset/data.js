@@ -77,27 +77,183 @@ export const ArticleData = [
     quizQuestion: [],
   },
   {
-    module: "The Stock Market",
-    modulePath: "/the-stock-market",
-    desc: "Learn about the different banks Canada has to offer and the one that suits you most.",
+    module: "Savings",
+    modulePath: "/savings",
+    desc: "Dive deeper into understanding the importance of saving money and the best ways to get started!",
     chapters: [
       {
-        chapterName: "Options",
+        chapterName: "Option1",
         chapterContent:
           "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
-        pathValue: "options",
+        pathValue: "option1",
       },
       {
-        chapterName: "Debit market",
+        chapterName: "Option2",
         chapterContent:
           "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
-        pathValue: "thedebitmarket",
+        pathValue: "option2",
       },
       {
-        chapterName: "Justifying Risk Taking",
+        chapterName: "Option3",
         chapterContent:
           "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
-        pathValue: "risktaking",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "GIC",
+    modulePath: "/gic",
+    desc: "Interested in investing your money? Read more about what GIC has to offer and the right way to start investing!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "Stocks",
+    modulePath: "/stocks",
+    desc: "Read more about getting started with investing in stocks and the best ways to do so!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "Mutual Funds",
+    modulePath: "/mutualfunds",
+    desc: "Explore more about the importance mutual funds hold in banking smarter!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "Options Trading",
+    modulePath: "/optionstrading",
+    desc: "Study the details on how to get involved in options trading and the benefits it may have in store for you!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "Credit Cards",
+    modulePath: "/creditcards",
+    desc: "Interested in holding a credit card? Don't know how to get started? Study the following chapters to understand the importance of credit cards!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
+      },
+    ],
+    quizQuestion: [],
+  },
+  {
+    module: "Credit Scores",
+    modulePath: "/creditscores",
+    desc: "Interested in figuring out ways to maintain a good credit score? Read further to learn everything you need to about getting started the right way!",
+    chapters: [
+      {
+        chapterName: "Option1",
+        chapterContent:
+          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+        pathValue: "option1",
+      },
+      {
+        chapterName: "Option2",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option2",
+      },
+      {
+        chapterName: "Option3",
+        chapterContent:
+          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
+        pathValue: "option3",
       },
     ],
     quizQuestion: [],
