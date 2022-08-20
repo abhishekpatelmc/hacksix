@@ -1,10 +1,18 @@
 import './App.css';
-import HomePage from './components/HomePage/HomePage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import TimelineNodePage from './views/TimelineNodePage/TimelineNodePage'
+import ArticlesPage from './views/ArticlesPage/ArticlesPage';
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Router>
+        <Routes>
+          <Route path='/' exact element={<TimelineNodePage />} />
+          <Route path='/module/:id' element={ <ArticlesPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
