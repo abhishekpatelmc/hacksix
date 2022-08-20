@@ -121,13 +121,25 @@ function DrawerAppBar(props) {
               paddingLeft: 20,
             }}
           >
-            EZfin
+            EZfincl
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" }, paddingRight: 20 }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
-              </Button>
+              <span>
+                {item === "Home" ? (
+                  <Link to="/" key={item} style={{ textDecoration: "none" }}>
+                    <Button sx={{ color: "#fff" }}>{item}</Button>
+                  </Link>
+                ) : (
+                  <a
+                    href={`#${item}`}
+                    key={item}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Button sx={{ color: "#fff" }}>{item}</Button>
+                  </a>
+                )}
+              </span>
             ))}
           </Box>
         </Toolbar>

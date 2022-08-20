@@ -1,16 +1,14 @@
 .landingContainer {
-  position: relative;
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
-  margin-top: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6%;
+  align-items: center;
 }
 
 .landingInfo {
   width: 35%;
   float: left;
-  margin-top: 130px;
+  margin-left: 6%;
 }
 
 .landingInfo h1 {
@@ -22,6 +20,7 @@
 
 .landingInfo p {
   margin: 0;
+  padding-right: 100px;
   line-height: 1.6;
   font-size: 15px;
   color: #5d5d5d;
@@ -38,59 +37,12 @@
 }
 
 .landingImg {
-  width: 50%;
+  width: 40%;
   float: right;
-  margin-top: 35px;
+  /* align-items: center;
+  justify-content: right; */
 }
 
 .landingImg img {
-  max-width: 100%;
-}
-.landingContainer {
-  position: relative;
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
-  margin-top: 4%;
-}
-
-.landingInfo {
-  width: 35%;
-  float: left;
-  margin-top: 130px;
-}
-
-.landingInfo h1 {
-  font-size: 44px;
-  margin: 0 0 20px;
-  line-height: 1.4;
-  color: #5d5d5d;
-}
-
-.landingInfo p {
-  margin: 0;
-  line-height: 1.6;
-  font-size: 15px;
-  color: #5d5d5d;
-}
-
-.landingInfo button {
-  border: 0;
-  border-radius: 20px;
-  padding: 12px 30px;
-  margin-top: 30px;
-  cursor: pointer;
-  color: #fff;
-  background-color: RGB(0, 191, 166);
-}
-
-.landingImg {
-  width: 50%;
-  float: right;
-  margin-top: 35px;
-}
-
-.landingImg img {
-  max-width: 100%;
+  height: 60vh;
 }

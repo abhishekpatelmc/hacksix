@@ -1,14 +1,14 @@
 import React from "react";
+import "./OptionPage.css";
 
 const OptionPage = () => {
   return (
     <div>
-      <h1>RouterPage</h1>
-      <h1>RouterPage</h1>
-      <h1>RouterPage</h1>
-      <h1>RouterPage</h1>
-      <h1>RouterPage</h1>
-      <h1>RouterPage</h1>
+      <div className="title">
+        <p>Are you a Student or a New Comer? </p>
+        <button>Student</button>
+        <button>New Comer</button>
+      </div>
     </div>
   );
 };
