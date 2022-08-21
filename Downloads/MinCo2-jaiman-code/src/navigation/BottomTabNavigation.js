@@ -10,6 +10,7 @@ import BudgetNavigator from "./BottomTab/BudgetNavigator";
 import AddEmissionsNavigator from "./BottomTab/AddEmissionsNavigator";
 import LearnScreen from "../screens/LearnScreen";
 import ScanProductNavigator from "./BottomTab/ScanProductNavigator";
+import LearnScreenNavigator from "./BottomTab/LearnScreenNavigation";
 
 
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
@@ -82,7 +83,7 @@ export default function BottomTabNavigation() {
       />
       <BottomTab.Screen 
         name="Learn" 
-        component={LearnScreen}
+        component={LearnScreenNavigator}
         options={LearnOptions} 
       />
     </BottomTab.Navigator>
