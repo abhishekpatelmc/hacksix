@@ -12,6 +12,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 
+import moneybag from "../../asset/img/money-bag.png";
 import { nodeCategories } from "../../asset/data";
 import "./TimelineNodePage.css";
 
@@ -58,7 +59,7 @@ export default function TimelineNodePage() {
                             <CardMedia
                               square
                               component="img"
-                              image="public/images/money-bag.png"
+                              image={moneybag}
                               alt="money"
                               style={styles.media}
                             />
