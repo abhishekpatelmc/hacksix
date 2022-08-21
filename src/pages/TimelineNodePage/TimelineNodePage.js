@@ -31,7 +31,7 @@ export default function TimelineNodePage() {
 
   return (
     <>
-      <div className="container">
+      <div className="container-time">
         <div className="partition-1">
           <div className="text-container">
             <Typography sx={{ color: "white" }} variant="h4" align="center">
@@ -73,7 +73,7 @@ export default function TimelineNodePage() {
                                 alt="money"
                                 style={styles.media}
                               />
-                              <Typography variant="h4" color="text.primary">
+                              <Typography variant="h5" color="text.primary">
                                 {nodes.name}
                               </Typography>
                             </div>

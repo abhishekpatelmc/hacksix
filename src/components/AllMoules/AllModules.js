@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import moneybag from "../../asset/img/money-bag.png";
+import { ArticleData } from "../../asset/data";
 import { nodeCategories } from "../../asset/data";
 import IconButton from "@mui/material/IconButton";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -42,7 +42,7 @@ const AllModules = () => {
         <IconButton onClick={slideLeft} aria-label="Left" size="large">
           <ArrowBackIosNewIcon />
         </IconButton>
-        <div id="slider" class="container">
+        <div id="slider" className="container">
           {nodeCategories.map((nodes, index) => {
             return (
               <Card style={styles.class} className="cardItem">
@@ -54,11 +54,11 @@ const AllModules = () => {
                     <CardMedia
                       square
                       component="img"
-                      image={moneybag}
+                      image={nodes.img}
                       alt="money"
                       style={styles.media}
                     />
-                    <Typography variant="h5" color="text.primary">
+                    <Typography variant="h6" color="text.primary">
                       {nodes.name}
                     </Typography>
                   </CardContent>

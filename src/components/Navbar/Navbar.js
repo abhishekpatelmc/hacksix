@@ -73,7 +73,7 @@ function DrawerAppBar(props) {
               paddingLeft: 20,
             }}
           >
-            EZfincl
+            EZfin
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" }, paddingRight: 20 }}>
             {navItems.map((item) => (
