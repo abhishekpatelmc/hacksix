@@ -1,8 +1,12 @@
-import React from "react";
+import * as React from "react";
 import "./About.css";
 
 const About = () => {
-  return <div></div>;
+  return (
+    <div className="Heading">
+      <h1> About </h1>
+    </div>
+  );
 };
 
 export default About;
