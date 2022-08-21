@@ -2,7 +2,6 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
-
   display: flex;
   align-items: center;
 }
@@ -13,11 +12,14 @@
   overflow-y: hidden;
   white-space: nowrap;
   padding-top: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  padding-bottom: 35px;
   scroll-behavior: smooth;
 }
 .container::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  /* display: none; */
+  background: #dadada;
+  border-radius: 20px;
 }
 
 .Heading {
@@ -34,7 +36,8 @@
 
 .cardItem {
   margin-left: 20px;
-  padding: 1rem;
+  padding-left: 20px;
+  /* padding: 1rem; */
   justify-content: center;
   align-items: center;
   cursor: pointer;

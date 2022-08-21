@@ -10,7 +10,9 @@ const OptionPage = () => {
         <Link to="/Timeline">
           <button>Student</button>
         </Link>
-        <button>New Comer</button>
+        <Link to="/Timeline">
+          <button>New Comer</button>
+        </Link>
       </div>
     </div>
   );

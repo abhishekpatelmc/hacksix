@@ -1,6 +1,5 @@
 import React from "react";
 import About from "../../components/About/About";
-import Contact from "../../components/Contact/Contact";
 import Landing from "../../components/landing/Landing";
 import AllModules from "../../components/AllMoules/AllModules";
 
@@ -10,7 +9,6 @@ function HomePage() {
       <Landing />
       <About />
       <AllModules />
-      {/* <Contact /> */}
     </div>
   );
 }

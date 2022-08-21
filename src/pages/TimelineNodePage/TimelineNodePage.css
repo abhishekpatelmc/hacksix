@@ -1,19 +1,36 @@
-.container {
+.container-time {
+  margin-top: 65px;
   display: flex;
 }
 
 .partition-1 {
+  display: flex;
   background-color: #00bfa5;
   flex: 0.3;
   align-items: center;
-  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .partition-2 {
   background-color: whitesmoke;
-  flex: 0.70;
+  flex: 0.7;
 }
 
-.roadmap-container {
-  
+.text-container {
+  align-self: center;
+}
+
+.cardcontent-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subtext-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

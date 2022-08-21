@@ -9,10 +9,15 @@ const Landing = () => {
     <div>
       <div className="landingContainer">
         <div className="landingInfo">
-          <h1>A NEW WAY TO LEARN fINANCE</h1>
+          <h1>
+            A NEW WAY TO LEARN <br />
+            🍁 FINANCE
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            odit nihil ullam nesciunt quidem iste, Repellendus odit nihil
+            As a Canadian newcomer, it can be difficult to understand the great
+            Canadian financial system. We're here to help you navigate through
+            the maze and achieve financial independence and secure your new
+            future!
           </p>
           <Link to="/OptionPage">
             <button>Get Started</button>

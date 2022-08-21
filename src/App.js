@@ -15,7 +15,8 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/OptionPage" element={<OptionPage />} />
         <Route path="/Timeline" element={<TimelineNodePage />} />
-        <Route path="/module/:id" element={<ArticlesPage />} />
+
+        <Route path="/module/:moduleString/:id" element={<ArticlesPage />} />
       </Routes>
     </div>
   );
