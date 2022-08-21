@@ -58,20 +58,38 @@ export const ArticleData = [
       {
         chapterName: "The big 5",
         chapterContent:
-          "afklsfjkalsfjkalfjsaklfjasklfajslfajflajsalkjlkfjlksajlfsajfl",
+          "The name Big Five Banks refers to Canada's five major banks: Royal Bank, Bank of Montreal, Canadian Imperial Bank of Commerce, Bank of Nova Scotia, and Toronto-Dominion Bank.",
         pathValue: "thebig5",
       },
       {
-        chapterName: "The Stock Market",
+        chapterName: "The Royal Bank of Canada ",
         chapterContent:
-          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
-        pathValue: "thestockmarket",
+          "The Royal Bank of Canada is the largest of the Big Five with respect to net revenue (C$11.4 billion in 2020) and capitalization (C$132.5 billion in 2020). The Royal Bank of Canada has over 17 million clients worldwide, over 86,000 full-time employees and over 1,300 branches. Founded in 1864 in Halifax, Nova Scotia, the bank financed the lumber and timber industries. It was known as the Merchants Bank of Halifax.",
+        pathValue: "royalbank",
       },
       {
-        chapterName: "The IPO Market",
+        chapterName: "Toronto-Dominion Bank",
         chapterContent:
-          "ajsfjlkadfjlkadjflkadlflafkasfskafleifiealihlshlvfkjsfjka",
-        pathValue: "theipomarket",
+          "The second-largest bank in Canada, the Toronto-Dominion Bank has the most assets, which are valued at C$1.7 trillion as of January 2021.1 This bank has over 9.6 million clients worldwide, 25,000 employees and over 1,100 branches. The bank was the result of a merger of the Bank of Toronto and the Dominion Bank in 1955.",
+        pathValue: "toronto",
+      },
+      {
+        chapterName: "Bank of Nova Scotia",
+        chapterContent:
+          "The Bank of Nova Scotia, or Scotiabank, is the next largest bank in Canada with assets valued at C$1.1 trillion at year end 2020, the revenue of C$31 billion in 2020 and capitalization of C$67 billion. The bank has over 11 million customers in Canada, 10 million customers outside of Canada, 92,000 full-time employees, and over 900 branches in Canada. This bank offers to trade on both the New York and Toronto Stock Exchanges. Founded in Halifax in 1832, Nova Scotia bank moved its headquarters to Toronto in 1900 to improve the transatlantic trade industry.",
+        pathValue: "novascotia",
+      },
+      {
+        chapterName: "Bank of Montreal",
+        chapterContent:
+          "The Bank of Montreal is the fourth largest Canadian bank with C$949 billion worth of assets and revenue of C$25 billion at year end 2020. The bank has over 8 million clients in Canada and almost 900 branches. The bank has over 42,000 employees worldwide as of Q2 of 2021. Throughout crises such as World War I, the Great Depression, World War II, and the 2008 Global Financial Crisis, the Bank has consistently met dividend payments.",
+        pathValue: "montreal",
+      },
+      {
+        chapterName: "Canadian Imperial Bank of Commerce",
+        chapterContent:
+          "The Canadian Imperial Bank of Commerce has C$770 billion in assets, the revenue of C$18.7 billion for 2020, and capitalization of C$44 billion. The bank has over 11 million clients worldwide, 1,100 branches in Canada and over 44,000 full-time employees worldwide. The bank was formed in 1961 when the Canadian Bank of Commerce and the Imperial Bank of Canada merged.",
+        pathValue: "commerce",
       },
     ],
     quizQuestion: [],
