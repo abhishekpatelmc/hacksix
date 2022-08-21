@@ -32,7 +32,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        EZfin
+        EZFinance
       </Typography>
       <Divider />
       <List>
@@ -73,7 +73,7 @@ function DrawerAppBar(props) {
               paddingLeft: 20,
             }}
           >
-            EZfin
+            EZFinance
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" }, paddingRight: 20 }}>
             {navItems.map((item) => (
