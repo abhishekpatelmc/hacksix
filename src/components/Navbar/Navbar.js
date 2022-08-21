@@ -18,6 +18,7 @@ import { Link } from "react-router-dom";
 import Colors from "../../utils/Colors";
 
 const drawerWidth = 240;
+
 const navItems = ["Home", "About", "Learnings", "Contact"];
 
 function DrawerAppBar(props) {

@@ -1,0 +1,18 @@
+.container-article{
+  display: flex;
+  margin-top: 65px;
+}
+
+.partition-1-article {
+  flex: 0.25;
+}
+
+.partition-2-article {
+  flex: 0.75;
+  border-color: red;
+  border-width: 10px  ;
+}
+
+.article-box {
+  padding: 20px;
+}

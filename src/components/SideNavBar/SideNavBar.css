@@ -1,5 +1,3 @@
-
-
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
@@ -7,13 +5,12 @@
 }
 
 .nav-menu {
-  background-color:#00bfa5;
+  background-color: #00bfa5;
   width: 350px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
-  top: 0;
   left: -100%;
   transition: 850ms;
 }
@@ -30,6 +27,7 @@
   padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
+  font-weight: 600;
 }
 
 .nav-text a {

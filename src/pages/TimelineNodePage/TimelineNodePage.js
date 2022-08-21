@@ -12,7 +12,6 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 
-import moneybag from "../../asset/img/money-bag.png";
 import { nodeCategories } from "../../asset/data";
 import "./TimelineNodePage.css";
 
@@ -22,8 +21,11 @@ export default function TimelineNodePage() {
       maxWidth: 700,
     },
     media: {
-      width: 100,
-      height: 100,
+      width: 194,
+      height: 194,
+    },
+    card: {
+      justifyContent: "center",
     },
   };
 
@@ -31,13 +33,21 @@ export default function TimelineNodePage() {
     <>
       <div className="container">
         <div className="partition-1">
-          <Typography variant="h4" align="center">
-            Let's start making good financial choices.
-          </Typography>
-          <Typography variant="body-1" align="center">
-            Choose from one of the modules chosen specifically for your profile
-            and keep track of your progress.
-          </Typography>
+          <div className="text-container">
+            <Typography sx={{ color: "white" }} variant="h4" align="center">
+              Let's start making good financial choices.
+            </Typography>
+            <div className="subtext-container">
+              <Typography
+                sx={{ color: "white" }}
+                variant="body-2"
+                align="center"
+              >
+                Choose from one of the modules chosen specifically for your
+                profile and keep track of your progress.
+              </Typography>
+            </div>
+          </div>
         </div>
         <div className="partition-2">
           <div className="roadmap-container">
@@ -55,17 +65,18 @@ export default function TimelineNodePage() {
                           component={RouterLink}
                           to={`/module/${nodes.path}`}
                         >
-                          <CardContent>
-                            <CardMedia
-                              square
-                              component="img"
-                              image={moneybag}
-                              alt="money"
-                              style={styles.media}
-                            />
-                            <Typography variant="h5" color="text.primary">
-                              {nodes.name}
-                            </Typography>
+                          <CardContent style={styles.card}>
+                            <div className="cardcontent-container">
+                              <CardMedia
+                                component="img"
+                                image={nodes.img}
+                                alt="money"
+                                style={styles.media}
+                              />
+                              <Typography variant="h4" color="text.primary">
+                                {nodes.name}
+                              </Typography>
+                            </div>
                           </CardContent>
                         </CardActionArea>
                       </Card>
