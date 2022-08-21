@@ -17,7 +17,7 @@
   scroll-behavior: smooth;
 }
 .container::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  /* display: none; */
 }
 
 .Heading {
