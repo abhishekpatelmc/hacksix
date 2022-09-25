@@ -2,6 +2,8 @@
 
 > All your financial resources in one place! Learning about finance has never been so EZ!
 
+[Devpost](https://devpost.com/software/ezfinance-z8mdx7)
+
 ## Check our Demo
 
 - [View here](https://www.youtube.com/watch?v=M6HNePLsOMQ&ab_channel)
