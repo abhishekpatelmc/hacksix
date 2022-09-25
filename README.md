@@ -1,4 +1,4 @@
-# Hacksix
+# EzFinance - Hacksix
 
 > All your financial resources in one place! Learning about finance has never been so EZ!
 
